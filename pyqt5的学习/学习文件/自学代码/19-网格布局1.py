@@ -24,7 +24,7 @@ class MyApp(QWidget):
         # except Exception as e:
         #     print(e)
         #     pass
-        if self.grid.count() < 10:
+        if self.grid.count() < 20:
             self.lw = QListWidget()
             self.ltWds.append(self.lw)
 
